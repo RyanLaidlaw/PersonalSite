@@ -2,15 +2,15 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 
-function Home() {
+function About() {
   return (
     <div>
         <Helmet>
-            <title>Home - Ryan Laidlaw</title>
+            <title>About - Ryan Laidlaw</title>
         </Helmet>
-        <h1>Home</h1>
+        <h1>About</h1>
     </div>
   );
 }
 
-export default Home;
+export default About;

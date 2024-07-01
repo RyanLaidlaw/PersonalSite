@@ -9,7 +9,7 @@ function Navbar() {
     <nav>
       <ul>
         <li className={location.pathname === '/' ? 'active' : ''}>
-          <Link to="/">Home</Link>
+          <Link to="/">About</Link>
         </li>
         <li className={location.pathname === '/resume' ? 'active' : ''}>
           <Link to="/resume">Resume</Link>

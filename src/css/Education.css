@@ -17,7 +17,7 @@ body {
   width: 200px;
   height: auto;
   margin-top: 30px;
-  margin-left: 30px
+  margin-left: 90px
 }
 
 .uni-degree-container {
@@ -26,7 +26,7 @@ body {
   align-items: flex-start;
   text-align: center;
   flex-grow: 1;
-  padding-left: 190px; /* Added to account for the logo width and margin */
+  padding-left: 130px; /* Added to account for the logo width and margin */
 }
 
 .uni-name {
