@@ -49,7 +49,7 @@ function Resume() {
           <h3>508-448-2882</h3>
         </div>
         <a
-          href="/Ryan_Laidlaw_Resume.pdf"
+          href="./personalsite/Ryan_Laidlaw_Resume.pdf"
           download
           className="download-button">
           Download PDF
