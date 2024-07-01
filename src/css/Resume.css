@@ -217,7 +217,8 @@ h3 {
   }
   
   .company-name, .period {
+    display: block;
+    line-height: normal;
     word-wrap: break-word;
-    line-height: 30px;
   }
 }
