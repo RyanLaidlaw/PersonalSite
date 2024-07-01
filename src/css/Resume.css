@@ -210,4 +210,13 @@ h3 {
   .tables {
     flex-direction: column;
   }
+
+  .work-item {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .company-name, .period {
+    word-wrap: break-word;
+  }
 }
