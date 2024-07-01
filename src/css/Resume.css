@@ -172,12 +172,12 @@ h3 {
 @media screen and (max-width: 600px) {
   h1 {
     font-size: 40px;
-    line-height: 15px;
+    line-height: 25px;
   }
   
   h2 {
     font-size: 20px;
-    line-height: 30px;
+    line-height: 40px;
   }
   
   h3 {
