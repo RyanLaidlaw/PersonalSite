@@ -19,7 +19,7 @@ function Education() {
         <title>Education - Ryan Laidlaw</title>
       </Helmet>
       <div className="header">
-        <img src="./personalsite/unhlogo.png" alt="UNH Logo" className="unh-logo" />
+        <img src="./PersonalSite/unhlogo.png" alt="UNH Logo" className="unh-logo" />
         <div className="uni-degree-container">
           <h1 className='uni-name'>The University of New Hampshire</h1>
           <h3 className='degree'>
