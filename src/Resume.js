@@ -49,7 +49,7 @@ function Resume() {
           <h3>508-448-2882</h3>
         </div>
         <a
-          href="./PersonalSite/Ryan_Laidlaw_Resume.pdf"
+          href={`${process.env.PUBLIC_URL}/Ryan_Laidlaw_Resume.pdf`}
           download
           className="download-button">
           Download PDF
