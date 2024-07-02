@@ -221,4 +221,9 @@ h3 {
     line-height: normal;
     word-wrap: break-word;
   }
+
+  .job-title {
+    line-height: normal;
+    word-wrap: break-word;
+  }
 }
