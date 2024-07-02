@@ -120,5 +120,6 @@ body {
   .course-name,
   .course-description {
     word-wrap: break-word;
+    line-height: normal;
   }
 }
