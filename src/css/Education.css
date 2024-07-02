@@ -92,11 +92,14 @@ body {
     }
   
     .unh-logo {
-      margin-left: 130px;
+      margin-left: 100px;
     }
 
     .uni-name {
         line-height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
   
     .uni-degree-container {
