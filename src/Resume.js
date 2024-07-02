@@ -22,8 +22,9 @@ function Resume() {
   ];
 
   const workExperience = [
-    { jobTitle: 'NVMe Technician', company: 'UNH InterOperability Laboratory', period: 'January 2024 - Present', 
-    description: 'Working with other interns in the NVMe consortium to provide testing and solutions for tech companies. Developing tests, fixing bugs and providing online customer support.' },
+    { jobTitle: 'Non-Volatile Memory Express (NVMe) Test Developer', company: 'UNH InterOperability Laboratory', period: 'January 2024 - Present', 
+    description: 'Working with other interns to leveage Agile methodologies to develop and upkeep Python and Bash testing scripts to be used by firmware engineers working for major tech companies worldwide. Providing professional level customer support to debug and solve issues found in legacy and newly released code to assist senior level engineers in continuing on their path to NVMe SSD certification.', 
+    link: 'https://www.iol.unh.edu/' },
 
     { jobTitle: 'Crew Member', company: 'R&R Landscaping', period: 'June 2023 - June 2024', 
     description: 'Performed upkeep of existing landscaping by pruning, trimming, weeding, and mulching as the leader of a 2-3 man crew.' },
@@ -91,6 +92,13 @@ function Resume() {
             <h3 className='job-title'>{ work.jobTitle }</h3>
             <h3 className='period'>{ work.period }</h3>
             <p className='job-description'>{ work.description }</p>
+            {work.link && (
+              <p className='job-link'>
+                <a href={work.link} target="_blank" rel="noopener noreferrer">
+                  {work.link}
+                </a>
+              </p>
+              )}
           </div>
         ))}
       </div>
