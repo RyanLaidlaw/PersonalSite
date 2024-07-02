@@ -12,7 +12,7 @@ function Navbar() {
           <Link to="/">About</Link>
         </li>
         <li className={location.pathname === '/resume' ? 'active' : ''}>
-          <Link to="/resume">Resume</Link>
+          <Link to="/resume">Résumé</Link>
         </li>
         <li className={location.pathname === '/projects' ? 'active': ''}>
             <Link to="/projects">Projects</Link>
