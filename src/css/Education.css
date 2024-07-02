@@ -102,4 +102,10 @@ body {
     .uni-degree-container {
       padding-left: 0;
     }
+
+    .course-name, .course-item {
+        display: block;
+        line-height: normal;
+        word-wrap: break-word;
+    }
   }
