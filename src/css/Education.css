@@ -92,7 +92,7 @@ body {
     }
   
     .unh-logo {
-      margin-left: 100px;
+      margin-left: 80px;
     }
 
     .uni-name {
@@ -104,6 +104,12 @@ body {
   
     .uni-degree-container {
       padding-left: 0;
+    }
+    
+    .courses {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .course-name, .course-item {
