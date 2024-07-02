@@ -23,7 +23,7 @@ function Resume() {
 
   const workExperience = [
     { jobTitle: 'Non-Volatile Memory Express (NVMe) Test Developer', company: 'UNH InterOperability Laboratory', period: 'January 2024 - Present', 
-    description: 'Working with other interns to leveage Agile methodologies to develop and upkeep Python and Bash testing scripts to be used by firmware engineers working for major tech companies worldwide. Providing professional level customer support to debug and solve issues found in legacy and newly released code to assist senior level engineers in continuing on their path to NVMe SSD certification.', 
+    description: 'Working with other interns to leverage Agile methodologies to develop and upkeep Python and Bash testing scripts to be used by firmware engineers working for major tech companies worldwide. Providing professional level customer support to debug and solve issues found in legacy and newly released code to assist senior level engineers in continuing on their path to NVMe SSD certification.', 
     link: 'https://www.iol.unh.edu/' },
 
     { jobTitle: 'Crew Member', company: 'R&R Landscaping', period: 'June 2023 - June 2024', 
@@ -35,19 +35,24 @@ function Resume() {
 
   return (
     <div>
-        <style>
-            {/*Fonts for title use*/}
-            @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
-            @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600..900;1,400..900&display=swap');
-        </style>
       <Helmet>
         <title>Résumé - Ryan Laidlaw</title>
       </Helmet>
       <div className="contact">
         <div className="contact-info">
           <h1>Ryan Laidlaw</h1>
-          <h2>rdlaidlaw@comcast.net</h2>
-          <h3>508-448-2882</h3>
+          <h2 className='contact_actual'>Contact</h2>
+          <h3 className='contact_links'>
+            <a href='https://www.linkedin.com/in/ryan-laidlaw-561751293/'>
+              <img src={`${process.env.PUBLIC_URL}/linkedin.png`} alt="LinkedIn-Logo" className="linkedin-logo" />
+            </a>
+            <a href='https://www.instagram.com/ryan.laidlaw2/'>
+              <img src={`${process.env.PUBLIC_URL}/instagram.webp`} alt="Instagram Logo" className="instagram-logo" />
+            </a>
+            <a href='https://github.com/RyanLaidlaw'>
+              <img src={`${process.env.PUBLIC_URL}/github.png`} alt="Git Hub Logo" className="github-logo" />
+            </a>
+          </h3>
         </div>
         <a
           href={`${process.env.PUBLIC_URL}/Ryan_Laidlaw_Resume.pdf`}
@@ -73,32 +78,32 @@ function Resume() {
         <div className='tools'>
           <h2>Core Utilities</h2>
           <table>
-                <thead></thead>
-                <tbody>
-                {tools.map((tool, index) => (
-                    <tr key={index} className={index % 2 === 0 ? 'even-row' : 'odd-row'}>
-                    <td>{tool}</td>
-                    </tr>
-                ))}
-                </tbody>
-            </table>
+            <thead></thead>
+            <tbody>
+              {tools.map((tool, index) => (
+                <tr key={index} className={index % 2 === 0 ? 'even-row' : 'odd-row'}>
+                  <td>{tool}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
         </div>
       </div>
       <h2 className='work-title'>Work Experience</h2>
       <div className='work-exp'>
         {workExperience.map((work, index) => (
           <div key={index} className={`work-item ${index % 2 === 0 ? 'even-row' : 'odd-row'}`}>
-            <h3 className='company-name'>{ work.company }</h3>
-            <h3 className='job-title'>{ work.jobTitle }</h3>
-            <h3 className='period'>{ work.period }</h3>
-            <p className='job-description'>{ work.description }</p>
+            <h3 className='company-name'>{work.company}</h3>
+            <h3 className='job-title'>{work.jobTitle}</h3>
+            <h3 className='period'>{work.period}</h3>
+            <p className='job-description'>{work.description}</p>
             {work.link && (
               <p className='job-link'>
                 <a href={work.link} target="_blank" rel="noopener noreferrer">
                   {work.link}
                 </a>
               </p>
-              )}
+            )}
           </div>
         ))}
       </div>
