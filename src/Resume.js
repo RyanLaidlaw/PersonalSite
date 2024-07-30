@@ -13,7 +13,7 @@ function Resume() {
   ];
 
   const tools = [
-    'VS Code',
+    'VS Code, JetBrains IDEs',
     'Bootstrap',
     'React, Node.js',
     'Git, Bitbucket, Jira',
