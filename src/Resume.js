@@ -23,7 +23,7 @@ function Resume() {
 
   const workExperience = [
     { jobTitle: 'Non-Volatile Memory Express (NVMe) Test Developer', company: 'UNH InterOperability Laboratory', period: 'January 2024 - Present', 
-    description: 'Working with other interns to leverage Agile methodologies to develop and upkeep Python and Bash testing scripts to be used by firmware engineers working for major tech companies worldwide. Providing professional level customer support to debug and solve issues found in legacy and newly released code to assist senior level engineers in continuing on their path to NVMe SSD certification.', 
+    description: 'Working with other interns to leverage Agile methodologies to develop and upkeep Python and Bash testing scripts to be used by firmware engineers working for major tech companies worldwide. Providing professional level customer support to debug and solve issues found in legacy and newly released code to assist senior level engineers in continuing on their path to the NVMe Integrator\'s List.', 
     link: 'https://www.iol.unh.edu/' },
 
     { jobTitle: 'Crew Member', company: 'R&R Landscaping', period: 'June 2023 - June 2024', 
